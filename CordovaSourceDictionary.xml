@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is auto-generated, do not edit! -jm -->
+<CordovaSourceDictionary>
+    <FilePath Value="www\barcodescanner.js"/>
+    <FilePath Value="www\Camera.html"/>
+    <FilePath Value="www\ChildBrowser.js"/>
+    <FilePath Value="www\Connection.html"/>
+    <FilePath Value="www\cordova.js"/>
+    <FilePath Value="www\Geolocation.html"/>
+    <FilePath Value="www\index.html"/>
+    <FilePath Value="www\index2.html"/>
+    <FilePath Value="www\Notification.html"/>
+    <FilePath Value="www\ScanQRCode.html"/>
+    <FilePath Value="www\css\index.css"/>
+    <FilePath Value="www\img\logo.png"/>
+    <FilePath Value="www\js\Camera.js"/>
+    <FilePath Value="www\js\Connection.js"/>
+    <FilePath Value="www\js\Geolocation.js"/>
+    <FilePath Value="www\js\index.js"/>
+    <FilePath Value="www\js\Notification.js"/>
+</CordovaSourceDictionary>
