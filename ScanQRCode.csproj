@@ -90,6 +90,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BarcodeScanner.cs" />
     <Compile Include="cordovalib\BaseCommand.cs" />
     <Compile Include="cordovalib\BrowserMouseHelper.cs" />
     <Compile Include="cordovalib\CommandFactory.cs" />
@@ -108,7 +109,6 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Plugins\BarcodeScanner.cs" />
     <Compile Include="Plugins\Capture.cs" />
     <Compile Include="Plugins\ChildBrowserCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -128,13 +128,17 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ZXingVer1_7.dll" />
     <None Include="cordova\lib\build.js" />
     <None Include="cordova\lib\clean.js" />
     <None Include="cordova\lib\deploy.js" />
     <None Include="cordova\lib\log.js" />
     <None Include="cordova\lib\target-list.js" />
+    <Content Include="BarcodeScanner.dll" />
     <Content Include="www\**" />
-    <Content Include="config.xml" />
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Images\**" />
     <Content Include="resources\notification-beep.wav" />
     <None Include="cordova\build.bat" />

@@ -1,5 +1,5 @@
 /**
- * PhoneGap/Cordova is available under *either* the terms of the modified BSD license *or* the
+ * PhoneGap/cordova is available under *either* the terms of the modified BSD license *or* the
  * MIT License (2008). See http://opensource.org/licenses/alphabetical for full text.
  *
  * Copyright (c) Matt Kane 2010
@@ -10,7 +10,7 @@
 
     //-------------------------------------------------------------------
     var BarcodeScanner = function () {
-        console.log('Hello! BarcodeScanner initialized sucesfully');
+        console.log('Hello! BarcodeScanner initialized succesfull');
     }
 
     //-------------------------------------------------------------------
@@ -45,7 +45,7 @@
         if (null == options)
             options = []
 
-        return Cordova.exec(successWrapper, fail, "org.apache.cordova.barcodeScanner", "scan", options)
+        return cordova.exec(successWrapper, fail, "org.apache.cordova.barcodeScanner", "scan", options)
     }
 
     //-------------------------------------------------------------------
@@ -62,11 +62,11 @@
             return
         }
 
-        return Cordova.exec(success, fail, "org.apache.cordova.barcodeScanner", "encode", [{ type: type, data: data, options: options }])
+        return cordova.exec(success, fail, "org.apache.cordova.barcodeScanner", "encode", [{ type: type, data: data, options: options }])
     }
 
     //-------------------------------------------------------------------
-    Cordova.addConstructor(function () {
+    cordova.addConstructor(function () {
         if (!window.plugins) window.plugins = {}
 
         if (!window.plugins.barcodeScanner) {
