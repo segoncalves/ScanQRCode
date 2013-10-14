@@ -47,21 +47,31 @@ var app = {
     Scan: function () {
         console.log('[Barcode.js - Scan: function ] - Scanning...');
 
-        navigator.notification.alert(
-            '[Barcode.js - Scan: function ] - Scanning...', // message
-            alertDismissed,                                 // callback
-            'Scanning',                                     // title
-            'Done!'                                         // buttonName
-        );
+        //navigator.notification.alert(
+        //    '[Barcode.js - Scan: function ] - Scanning...', // message
+        //    alertDismissed,                                 // callback
+        //    'Scanning',                                     // title
+        //    'Done!'                                         // buttonName
+        //);
 
-        window.plugins.barcodeScanner.scan(
-            function (result) {
-                alert("Scanned Code: " + result.text
-                        + ". Format: " + result.format
-                        + ". Cancelled: " + result.cancelled);
-            }, function (error) {
-                alert("Scan failed: " + error);
-            });
+        try {
+            window.plugins.barcodeScanner.scan(
+                function (result) {
+                    alert("Scanned Code: " + result.text
+                            + ". Format: " + result.format
+                            + ". Cancelled: " + result.cancelled);
+                }, function (error) {
+                    alert("Scan failed: " + error);
+                });
+        } catch (e) {
+            txt = "Error Message: " + e.message + "\n\n";
+            txt += "Error Code: ";
+            txt += e.number & 0xFFFF
+            txt += "<br />";
+            txt += "Error Name: " + e.name;
+            txt += "Click OK to continue.\n\n";
+            alert(txt);
+        }
     },
 
     //alertDismissed: function() {
@@ -87,8 +97,12 @@ var app = {
         try {
             var scanner = cordova.require("cordova/plugin/BarcodeScanner");
         }
-        catch (err) {
-            txt = "Error description: " + err.message + "\n\n";
+        catch (e) {
+            txt = "Error Message: " + e.message + "\n\n";
+            txt += "Error Code: ";
+            txt += e.number & 0xFFFF
+            txt += "<br />";
+            txt += "Error Name: " + e.name;
             txt += "Click OK to continue.\n\n";
             alert(txt);
         }
