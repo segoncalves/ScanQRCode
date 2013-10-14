@@ -245,8 +245,6 @@ namespace WPCordovaClassLib.Cordova.Commands
             DispatchCommandResult(new PluginResult(PluginResult.Status.OK, retVal), callbackId);
         }
 
-
-
         public void beep(string options)
         {
             string[] args = JSON.JsonHelper.Deserialize<string[]>(options);
@@ -340,7 +338,6 @@ namespace WPCordovaClassLib.Cordova.Commands
 
         public void vibrate(string vibrateDuration)
         {
-
             int msecs = 200; // set default
 
             try

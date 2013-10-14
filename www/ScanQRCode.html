@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <!--<script type="text/javascript" src="js/index.js"></script>-->
         <script type="text/javascript" src="BarcodeScanner.js"></script>
         <script type="text/javascript" src="js/Barcode.js"></script>
 
@@ -18,8 +18,8 @@
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+                <p class="event listening">Tentando conectar ao dispositivo</p>
+                <p class="event received">Dispositivo pronto!</p>
             </div>
         </div>
     
@@ -31,16 +31,15 @@
         <br />
         <br />
         <br />
-
-        <div style="font-size:xx-large;position:absolute; top: 80px; left: 25px;">
-
-        </div>
         
         <button style="width:300px;height:80px;" onclick="Scan();">Ler QRCode!</button> <br> <br>
 
-        <button style="width:300px;height:80px;" onclick="Testes();">Testes!</button> <br> <br>
+        <button style="width:300px;height:80px;" onclick="app.Mensagem(); return false;">Testes!</button> <br> <br>
             
-        <button style="width:300px;height:80px;" onclick="Scan();">Scan QRCode!</button> <br> <br>
+        <button style="width:300px;height:80px;" onclick="app.Scan();">Scan QRCode!</button> <br> <br>
+
+        <button style="width:300px;height:80px;" onclick="navigator.plugins.BarcodeScanner.prototype.scan();">BarcodeScanner.prototype.scan !</button> <br> <br>
+
 <!--        
         <button style="width:300px;height:80px;" onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br> <br>
         <button style="width:300px;height:80px;" onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br> <br>-->

@@ -82,7 +82,11 @@
     <feature name="InAppBrowser">
       <param name="wp-package" value="InAppBrowser"/>
     </feature>
-
+    
+    <feature name="Notification">
+      <param name="wp-package" value="Notification"/>
+    </feature>
+    
     <feature name="BarcodeScanner">
       <param
         name="wp-package"
@@ -98,7 +102,7 @@
     <feature name="BarcodeScanner">
       <param
         name="wp-package"
-        value="org.apache.cordova.BarCodeExample.barcodeScanner"/>
+        value="org.apache.cordova.ScanQRCode.barcodeScanner"/>
     </feature>
 
     <!--<feature name="MyOwnPlugin">

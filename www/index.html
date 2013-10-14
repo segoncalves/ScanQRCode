@@ -29,24 +29,27 @@
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+                <p class="event listening">Conectando ao dispositivo...</p>
+                <p class="event received">Dispositivo pronto!</p>
             </div>
         </div>
         <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
-        <script type="text/javascript" charset="utf-8" src="BarcodeScanner.js"></script>
+
         <script type="text/javascript">
             app.initialize();
         </script>
 
-        <button name="btnIndex2" style="width:300px;height:80px;" onclick="location.href='./index2.html';">Testing Connected Device</button><br> <br>
-        <button name="btnCamera" style="width:300px;height:80px;" onclick="location.href='./Camera.html';">Testes de Camera (PhoneGap)</button><br> <br>
+        <h1><p><a href="#" onclick="location.href='./index2.html';">Conectando ao dispositivo (PhoneGap)</a></p></h1>
+        <h1><p><a href="#" onclick="location.href='./Camera.html';">Uso da Camera (PhoneGap)</a></p></h1>
+        <h1><p><a href="#" onclick="location.href='./Connection.html';">Uso do Connection (PhoneGap)</a></p></h1>
 
-        <button name="btnConnection" style="width:300px;height:80px;" onclick="location.href='./Connection.html';">Testes de Connection (PhoneGap)</button><br> <br>
-        <button name="btnGeolocation" style="width:300px;height:80px;" onclick="location.href='./Geolocation.html';">Testes de Geolocation (PhoneGap)</button><br> <br>
-        <button name="Notification" style="width:300px;height:80px;" onclick="location.href='./Notification.html';">Testes de Notification (PhoneGap)</button><br> <br>
-        
-        <button name="btnScanQRCode" style="width:300px;height:80px;" onclick="location.href='./ScanQRCode.html';">Testes do Scan QRCode</button>
+        <h1><p><a href="#" onclick="location.href='./Geolocation.html';">Uso do Geolocation (PhoneGap)</a></p></h1>
+        <h1><p><a href="#" onclick="location.href='./Notification.html';">Uso do Notification (PhoneGap)</a></p></h1>
+        <h1><p><a href="#" onclick="location.href='./ScanQRCode.html';">Uso do BarcodeScanner Plugin (PhoneGap)</a></p></h1>
+
+<!--        <button name="btnConnection" style="width:300px;height:80px;" onclick="">Testes de Connection (PhoneGap)</button><br> <br>
+        <button name="btnGeolocation" style="width:300px;height:80px;" onclick="">Testes de Geolocation (PhoneGap)</button><br> <br>
+        <button name="Notification" style="width:300px;height:80px;" onclick="">Testes de Notification (PhoneGap)</button><br> <br>-->
     </body>
 </html>
