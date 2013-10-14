@@ -4,6 +4,8 @@ D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ScanQRCode.dll
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ScanQRCode.pdb
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\AppManifest.xaml
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ScanQRCode.xap
+D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\BarcodeScanner.dll
+D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ZXingVer1_7.dll
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\App.g.cs
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\MainPage.g.cs
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\cordovalib\CordovaView.g.cs
@@ -15,5 +17,3 @@ D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\ScanQRCode.g.resources
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\ScanQRCode.dll
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\ScanQRCode.pdb
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\XapCacheFile.xml
-D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\BarcodeScanner.dll
-D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ZXingVer1_7.dll

@@ -10,6 +10,7 @@
     <FilePath Value="www\index.html"/>
     <FilePath Value="www\index2.html"/>
     <FilePath Value="www\Notification.html"/>
+    <FilePath Value="www\QRCodeReader.html"/>
     <FilePath Value="www\ScanQRCode.html"/>
     <FilePath Value="www\css\index.css"/>
     <FilePath Value="www\img\logo.png"/>

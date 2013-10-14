@@ -22,7 +22,6 @@
 <widget>
 
   <plugin name="org.apache.cordova.barcodeScanner"/>
-  <!--<plugin name="barcodeScanner" />-->
 
   <features>
     <feature name="Device">
@@ -93,7 +92,7 @@
         value="BarcodeScanner"/>
     </feature>
 
-    <feature name="BarcodeScanner">
+    <!--<feature name="BarcodeScanner">
       <param
         name="wp-package"
         value="org.apache.cordova.barcodeScanner"/>
@@ -103,13 +102,19 @@
       <param
         name="wp-package"
         value="org.apache.cordova.ScanQRCode.barcodeScanner"/>
-    </feature>
+    </feature>-->
 
     <!--<feature name="MyOwnPlugin">
       <param name="android-package"
              value="com.yohpapa.research.test.MyOwnPlugin" />
     </feature>-->
   </features>
+
+  <Capabilities>
+    <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    <Capability Name="ID_CAP_IDENTITY_DEVICE" />
+    <Capability Name="ID_CAP_IDENTITY_USER" />
+  </Capabilities>
 
   <access origin="*"/>
 

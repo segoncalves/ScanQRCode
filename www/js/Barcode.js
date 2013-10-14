@@ -8,14 +8,16 @@ var app = {
     initialize: function () {
         this.bindEvents();
     },
+
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
     // `load`, `deviceready`, `offline`, and `online`.
     bindEvents: function () {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        document.getElementById('scan').addEventListener('click', this.scan, false);
+        //document.getElementById('scan').addEventListener('click', this.scan, false);
     },
+
     // deviceready Event Handler
     //
     // The scope of `this` is the event. In order to call the `receivedEvent`
@@ -23,6 +25,7 @@ var app = {
     onDeviceReady: function () {
         app.receivedEvent('deviceready');
     },
+
     // Update DOM on a Received Event
     receivedEvent: function (id) {
         var parentElement = document.getElementById(id);
@@ -35,8 +38,21 @@ var app = {
         console.log('Received Event: ' + id);
     },
 
+    // Application Constructor
+    initialize2: function () {
+        this.bindEvents();
+        this.Scan();
+    },
+
     Scan: function () {
         console.log('[Barcode.js - Scan: function ] - Scanning...');
+
+        navigator.notification.alert(
+            '[Barcode.js - Scan: function ] - Scanning...', // message
+            alertDismissed,                                 // callback
+            'Scanning',                                     // title
+            'Done!'                                         // buttonName
+        );
 
         window.plugins.barcodeScanner.scan(
             function (result) {
@@ -60,4 +76,8 @@ var app = {
             'Done'                                          // buttonName
         );
     },
+
+    TestesAlert: function () {
+        alert('Chamada a função TestesAlert');
+    }
 };
