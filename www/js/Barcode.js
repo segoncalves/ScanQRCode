@@ -101,3 +101,12 @@ function Scan() {
             alert("Scan failed: " + error);
         });
 }
+
+function Testes() {
+    navigator.notification.alert(
+    'You are the winner!',  // message
+    alertDismissed,         // callback
+    'Game Over',            // title
+    'Done'                  // buttonName
+    );
+}
