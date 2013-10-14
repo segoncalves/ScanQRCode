@@ -14,10 +14,10 @@
     <FilePath Value="www\ScanQRCode.html"/>
     <FilePath Value="www\css\index.css"/>
     <FilePath Value="www\img\logo.png"/>
-    <FilePath Value="www\js\Barcode.js"/>
     <FilePath Value="www\js\Camera.js"/>
     <FilePath Value="www\js\Connection.js"/>
     <FilePath Value="www\js\Geolocation.js"/>
     <FilePath Value="www\js\index.js"/>
     <FilePath Value="www\js\Notification.js"/>
+    <FilePath Value="www\js\ScanQRCode.js"/>
 </CordovaSourceDictionary>

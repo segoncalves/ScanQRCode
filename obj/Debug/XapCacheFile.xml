@@ -1,8 +1,8 @@
-﻿<xapCache source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ScanQRCode.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="14/10/2013 16:32:37">
+﻿<xapCache source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ScanQRCode.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="14/10/2013 17:00:50">
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="08/10/2013 11:15:00" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Background.png" archivePath="Background.png" lastWriteTime="07/10/2013 11:40:56" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="07/10/2013 11:40:56" />
-  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\ScanQRCode.dll" archivePath="ScanQRCode.dll" lastWriteTime="14/10/2013 16:32:36" />
+  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\ScanQRCode.dll" archivePath="ScanQRCode.dll" lastWriteTime="14/10/2013 17:00:49" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\BarcodeScanner.dll" archivePath="BarcodeScanner.dll" lastWriteTime="04/10/2013 17:13:27" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\ZXingVer1_7.dll" archivePath="ZXingVer1_7.dll" lastWriteTime="04/10/2013 17:13:27" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\ZXingVer1_7.dll" archivePath="ZXingVer1_7.dll" lastWriteTime="04/10/2013 17:13:27" />
@@ -17,16 +17,16 @@
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="07/10/2013 11:40:56" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\index.html" archivePath="www\index.html" lastWriteTime="14/10/2013 15:17:23" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\index2.html" archivePath="www\index2.html" lastWriteTime="07/10/2013 17:01:24" />
-  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\js\Barcode.js" archivePath="www\js\Barcode.js" lastWriteTime="14/10/2013 15:40:22" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\js\Camera.js" archivePath="www\js\Camera.js" lastWriteTime="08/10/2013 14:55:22" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\js\Connection.js" archivePath="www\js\Connection.js" lastWriteTime="08/10/2013 15:18:59" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\js\Geolocation.js" archivePath="www\js\Geolocation.js" lastWriteTime="08/10/2013 16:37:34" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="14/10/2013 12:54:33" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\js\Notification.js" archivePath="www\js\Notification.js" lastWriteTime="08/10/2013 15:24:01" />
+  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\js\ScanQRCode.js" archivePath="www\js\ScanQRCode.js" lastWriteTime="14/10/2013 16:50:22" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\Notification.html" archivePath="www\Notification.html" lastWriteTime="08/10/2013 16:38:09" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\QRCodeReader.html" archivePath="www\QRCodeReader.html" lastWriteTime="14/10/2013 15:21:24" />
-  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\ScanQRCode.html" archivePath="www\ScanQRCode.html" lastWriteTime="14/10/2013 15:27:33" />
-  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\config.xml" archivePath="config.xml" lastWriteTime="14/10/2013 16:31:33" />
+  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\www\ScanQRCode.html" archivePath="www\ScanQRCode.html" lastWriteTime="14/10/2013 16:52:52" />
+  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\config.xml" archivePath="config.xml" lastWriteTime="14/10/2013 16:40:33" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="07/10/2013 11:40:56" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="07/10/2013 11:40:56" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Images\appbar.feature.video.rest.png" archivePath="Images\appbar.feature.video.rest.png" lastWriteTime="07/10/2013 11:40:56" />
@@ -34,9 +34,9 @@
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="07/10/2013 11:40:56" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="07/10/2013 11:40:56" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\resources\notification-beep.wav" archivePath="resources\notification-beep.wav" lastWriteTime="07/10/2013 11:40:56" />
-  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\CordovaSourceDictionary.xml" archivePath="CordovaSourceDictionary.xml" lastWriteTime="14/10/2013 16:32:35" />
+  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\CordovaSourceDictionary.xml" archivePath="CordovaSourceDictionary.xml" lastWriteTime="14/10/2013 17:00:48" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="07/10/2013 11:40:56" />
-  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="14/10/2013 16:32:37" />
+  <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="14/10/2013 17:00:50" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="07/10/2013 11:40:56" />
   <file source="D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="07/10/2013 11:40:56" />
 </xapCache>

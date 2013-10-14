@@ -22,6 +22,9 @@
 <widget>
 
   <plugin name="org.apache.cordova.barcodeScanner"/>
+  <plugin name="com.phonegap.plugins.barcodescanner" version="1.0.2" />
+
+  <preference name="phonegap-version" value="3.0.0" />
 
   <features>
     <feature name="Device">
