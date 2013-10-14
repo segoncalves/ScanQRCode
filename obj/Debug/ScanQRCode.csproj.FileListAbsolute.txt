@@ -17,4 +17,3 @@ D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\ScanQRCode.pdb
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\XapCacheFile.xml
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\BarcodeScanner.dll
 D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\Bin\Debug\ZXingVer1_7.dll
-D:\WorkSpace\PEDD\ScanQRCode\ScanQRCode\obj\Debug\ScanQRCode.csprojResolveAssemblyReference.cache
